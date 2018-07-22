@@ -10,14 +10,12 @@
 
 The purpose of Lambda, as compared to AWS EC2, is to simplify building smaller, on-demand applications that are responsive to events and new information. AWS targets starting a Lambda instance within milliseconds of an event. Node.js, Python, Java, Go[2] and C# through .NET Core are all officially supported as of 2016, and other languages can be supported via call-outs. However, some runtimes, such as the Java Virtual Machine, may be slower than others to start.
 
-## Lambda Functions
 ![ScreenShot](https://github.com/jhoncbuendia/Game-of-drones/blob/master/images/lambda.png)
 
 * 1.1 api gateway
 
 API Gateway enables you to define a schema or model for the payload to facilitate setting up the body mapping template. ... You can also use a REST API client, such as Postman, to make raw API calls. In addition, you can enable API creation with AWS CloudFormation templates or API Gateway Extensions to Swagger.
 
-### API GATEWAY
 ![ScreenShot](https://github.com/jhoncbuendia/Game-of-drones/blob/master/images/api-gateway.png)
 
 * 2: library: local libraries
@@ -94,18 +92,25 @@ Your app is ready to be deployed.
 
 ## Screenshots Desktop
 
+### home view
 ![ScreenShot](https://github.com/jhoncbuendia/Game-of-drones/blob/master/images/home-pc.png)
+### players view
 ![ScreenShot](https://github.com/jhoncbuendia/Game-of-drones/blob/master/images/players-pc.png)
+### game view
 ![ScreenShot](https://github.com/jhoncbuendia/Game-of-drones/blob/master/images/game-pc.png)
+### match history view
 ![ScreenShot](https://github.com/jhoncbuendia/Game-of-drones/blob/master/images/history-pc.png)
 
 
-## Screenshots Pc
+## Screenshots Mobile 
 
-
+### home view
 ![ScreenShot](https://github.com/jhoncbuendia/Game-of-drones/blob/master/images/home-phone.png)
+### players view
 ![ScreenShot](https://github.com/jhoncbuendia/Game-of-drones/blob/master/images/players-phone.png)
+### game view
 ![ScreenShot](https://github.com/jhoncbuendia/Game-of-drones/blob/master/images/game-phone.png)
+### match history view
 ![ScreenShot](https://github.com/jhoncbuendia/Game-of-drones/blob/master/images/history-phone.png)
 
 ## Live Server: http://game-of-drones-dev.s3-website-us-east-1.amazonaws.com/
