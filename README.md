@@ -3,22 +3,21 @@
 ### ARCHITECTURE
 ![ScreenShot](https://github.com/jhoncbuendia/Game-of-drones/blob/master/images/architecture.png)
 
-
 ## Glossary
 
-### 1: lambdas: 
+### 1: Lambda function: 
 AWS Lambda Developer(s)	Amazon.com Initial release	November 2014; 3 years ago Operating system	Cross-platform Available in	English [Website](http://aws.amazon.com/lambda)	http://aws.amazon.com/lambda AWS Lambda is an event-driven, serverless computing platform provided by Amazon as a part of the Amazon Web Services. It is a computing service that runs code in response to events and automatically manages the computing resources required by that code. It was introduced in November 2014.[1]
 
 The purpose of Lambda, as compared to AWS EC2, is to simplify building smaller, on-demand applications that are responsive to events and new information. AWS targets starting a Lambda instance within milliseconds of an event. Node.js, Python, Java, Go[2] and C# through .NET Core are all officially supported as of 2016, and other languages can be supported via call-outs. However, some runtimes, such as the Java Virtual Machine, may be slower than others to start.
 
 ![ScreenShot](https://github.com/jhoncbuendia/Game-of-drones/blob/master/images/lambda.png)
 
-### 2 api gateway
+### 2 Api gateway
 API Gateway enables you to define a schema or model for the payload to facilitate setting up the body mapping template. ... You can also use a REST API client, such as Postman, to make raw API calls. In addition, you can enable API creation with AWS CloudFormation templates or API Gateway Extensions to Swagger.
 
 ![ScreenShot](https://github.com/jhoncbuendia/Game-of-drones/blob/master/images/api-gateway.png)
 
-### 3: data-model: 
+### 3: Data-model: 
 logical inter-relationships and data flow between different data elements involved in the information world. It also documents the way data is stored and retrieved. Data models facilitate communication business and technical development by accurately representing the requirements of the information system and by designing the responses needed for those requirements. Data models help represent what data is required and what format is to be used for different business processes.
 
 ### Backend Dependencies
